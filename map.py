@@ -92,7 +92,7 @@ class fac(protocol.ClientFactory):
 
 
 # this connects the protocol to a server running on port 8000
-reactor.connectTCP("10.8.0.1", 1199, fac())
+reactor.connectTCP("2hu-ch.org", 1199, fac())
 reactor.run()
 
 # print(messages)
